@@ -1,6 +1,6 @@
-namespace SOLID
+namespace SOLID.Interfaces
 {
-    public interface IDryingMethods
+    public interface IDry
     {
         int GetNumberOfDriedItems();
 

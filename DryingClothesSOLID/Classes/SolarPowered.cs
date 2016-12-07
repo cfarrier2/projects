@@ -1,6 +1,8 @@
+using SOLID.Interfaces;
+
 namespace SOLID
 {
-    public class SolarPowered : IPowerMethods
+    public class SolarPowered : IPower
     {
         public string GetPoweredBy()
         {

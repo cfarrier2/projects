@@ -1,16 +1,17 @@
+﻿using SOLID.Interfaces;
+
 namespace SOLID
 {
-    public class AirDryClothes : IDryingMethods
+    public class TwoInOneMachineDry : IDry
     {
-
         public int GetNumberOfDriedItems()
         {
-            return AirDriedHelpers.GetNumber();
+            return 15;
         }
 
         public string EquipmentUsedToDry()
         {
-            return "Drying Rack";
+            return "Two In One Machine";
         }
     }
 }

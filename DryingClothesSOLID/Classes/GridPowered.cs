@@ -1,6 +1,8 @@
+using SOLID.Interfaces;
+
 namespace SOLID
 {
-    public class GridPowered : IPowerMethods
+    public class GridPowered : IPower
     {
         public string GetPoweredBy()
         {

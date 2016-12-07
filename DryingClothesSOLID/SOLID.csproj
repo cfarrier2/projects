@@ -43,22 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AirDriedHelpers.cs" />
-    <Compile Include="AirDryClothes.cs" />
-    <Compile Include="DryClothes.cs" />
-    <Compile Include="GridPowered.cs" />
-    <Compile Include="IDryingMethods.cs" />
-    <Compile Include="IPowerMethods.cs" />
-    <Compile Include="MachineDryClothes.cs" />
-    <Compile Include="NonPowered.cs" />
+    <Compile Include="Classes\AirDryClothes.cs" />
+    <Compile Include="Classes\DryClothes.cs" />
+    <Compile Include="Classes\GridPowered.cs" />
+    <Compile Include="Classes\ClothesReporter.cs" />
+    <Compile Include="Interfaces\IClothesReporter.cs" />
+    <Compile Include="Interfaces\IDry.cs" />
+    <Compile Include="Interfaces\IPower.cs" />
+    <Compile Include="Classes\MachineDryClothes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SolarPowered.cs" />
-    <Compile Include="TwoInOneMachineDry.cs" />
+    <Compile Include="Classes\SolarPowered.cs" />
+    <Compile Include="Classes\TwoInOneMachineDry.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
